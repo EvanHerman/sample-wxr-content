@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+    <title>Sample DJ Tony Loco Website</title>
+    <link>https://www.example.com</link>
+    <description>Sample DJ Tony Loco Website</description>
+    <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+    <language>en-US</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.example.com</wp:base_site_url>
+    <wp:base_blog_url>https://www.example.com</wp:base_blog_url>
+
+    <!-- Home Page -->
+    <item>
+        <title>Home</title>
+        <link>https://www.example.com/home</link>
+        <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://www.example.com/home</guid>
+        <description></description>
+        <content:encoded><![CDATA[
+            <h1>Welcome to DJ Tony Loco's Website</h1>
+            <p>Exciting beats and unforgettable memories await you with DJ Tony Loco. Book your event today!</p>
+        ]]></content:encoded>
+        <wp:post_type>page</wp:post_type>
+        <wp:status>publish</wp:status>
+        <wp:postmeta>
+            <wp:meta_key>_wp_page_template</wp:meta_key>
+            <wp:meta_value><![CDATA[default]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+
+    <!-- About Page -->
+    <item>
+        <title>About</title>
+        <link>https://www.example.com/about</link>
+        <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://www.example.com/about</guid>
+        <description></description>
+        <content:encoded><![CDATA[
+            <h1>About DJ Tony Loco</h1>
+            <p>DJ Tony Loco has been rocking the party scene for over a decade. With a passion for music and a knack for keeping the dance floor alive, Tony Loco is the perfect choice for your next event.</p>
+        ]]></content:encoded>
+        <wp:post_type>page</wp:post_type>
+        <wp:status>publish</wp:status>
+        <wp:postmeta>
+            <wp:meta_key>_wp_page_template</wp:meta_key>
+            <wp:meta_value><![CDATA[default]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+
+    <!-- Contact Page -->
+    <item>
+        <title>Contact Us</title>
+        <link>https://www.example.com/contact</link>
+        <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://www.example.com/contact</guid>
+        <description></description>
+        <content:encoded><![CDATA[
+            <h1>Contact DJ Tony Loco</h1>
+            <p>For bookings and inquiries, please fill out the form below or contact us directly at contact@example.com.</p>
+            <p>[contact-form-7 id="123" title="Contact form 1"]</p>
+        ]]></content:encoded>
+        <wp:post_type>page</wp:post_type>
+        <wp:status>publish</wp:status>
+        <wp:postmeta>
+            <wp:meta_key>_wp_page_template</wp:meta_key>
+            <wp:meta_value><![CDATA[default]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+
+    <!-- Navigation Menu -->
+    <item>
+        <title>Menu</title>
+        <link>https://www.example.com/menu</link>
+        <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://www.example.com/menu</guid>
+        <description></description>
+        <content:encoded><![CDATA[
+            <nav>
+                <ul>
+                    <li><a href="https://www.example.com/home">Home</a></li>
+                    <li><a href="https://www.example.com/about">About</a></li>
+                    <li><a href="https://www.example.com/contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        ]]></content:encoded>
+        <wp:post_type>nav_menu_item</wp:post_type>
+        <wp:status>publish</wp:status>
+    </item>
+
+</channel>
+</rss>
